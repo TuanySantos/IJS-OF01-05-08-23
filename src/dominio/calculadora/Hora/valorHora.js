@@ -10,4 +10,4 @@ const calcularValorPorHora = (rendaMensal) => {
   return Math.ceil(valorPorHora);
 };
 
-exports.calcularValorPorHora = calcularValorPorHora;
+module.exports = {calcularValorPorHora};

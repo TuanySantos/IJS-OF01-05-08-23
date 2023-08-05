@@ -6,4 +6,4 @@ const calcularHorasDeProjeto = (listaDeFuncionalidades) => (
     .reduce((sum, currentValue) => sum + currentValue, 0)
 );
 
-exports.calcularHorasDeProjeto = calcularHorasDeProjeto;
+module.exports = {calcularHorasDeProjeto};
